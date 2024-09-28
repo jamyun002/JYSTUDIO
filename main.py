@@ -97,4 +97,4 @@ async def generate_license(interaction: nextcord.Interaction):
     # 라이센스 생성 완료 임베드
     await interaction.response.send_message("생성된 라이센스를 DM으로 보냈습니다.", ephemeral=True)
 
-bot.run("봇토큰")
+bot.run("")
